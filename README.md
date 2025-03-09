@@ -45,6 +45,10 @@ This project provides an interactive Tic Tac Toe game where two players take tur
 - **Reset:**  
   Clicking the Reset button clears the board and resets the game state.
 
+  ## Acknowledgements
+
+I would like to thank [this YouTube video](https://youtu.be/B3pmT7Cpi24?si=pXe4vjTNyaHHyTFW) for its helpful tutorial, which greatly assisted in the development of this project.
+
 ---
 
 Enjoy playing and customizing your Tic Tac Toe game!
