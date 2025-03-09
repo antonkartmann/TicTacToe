@@ -45,10 +45,6 @@ This project provides an interactive Tic Tac Toe game where two players take tur
 - **Reset:**  
   Clicking the Reset button clears the board and resets the game state.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ---
 
 Enjoy playing and customizing your Tic Tac Toe game!
