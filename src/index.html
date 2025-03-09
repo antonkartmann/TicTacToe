@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=" stylesheet" href="style.css">
+    
+    <!-- Page title displayed in the browser tab -->
     <title>Tic Tac Toe</title>
     <script src="index.js"></script>
     <link rel = "preconnect" href="https://fonts.gstatic.com">
@@ -14,14 +16,19 @@
 </head>
 <body>
     <main class="background">
+        <!-- Title section displaying the game title -->
         <section class = "title">
                  <h1>Tic Tac Toe</h1>
         </section>
+        <!-- Display section showing the current player's turn -->
         <section class = "display">>
                 Player <span class="display-player playerX">X</span>´s turn
         </section>
 
+
+        <!-- Game board container: a 3x3 grid of game tiles -->
        <section class="container">
+            <!-- Each div represents a tile in the Tic Tac Toe grid -->
            <div class="tile"></div>
            <div class="tile"></div>
            <div class="tile"></div>
@@ -32,8 +39,11 @@
            <div class="tile"></div>
            <div class="tile"></div>
        </section>
-
+        
+        <!-- Announcer section for displaying win/draw messages (initially hidden) -->
         <section class="display announcer hide"></section>
+
+        <!-- Controls section with the Reset button to restart the game -->
         <section class="controls">
             <button id="reset">Reset</button>
         </section>
